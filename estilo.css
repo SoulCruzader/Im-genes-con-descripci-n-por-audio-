@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F5F5;
+    color: #1F1F1F;
+    margin: 0;
+    padding: 20px;
+}
+
+.comparar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    width: 320px;
+}
+
+.mal {
+    border-top: 8px solid #B3261E;
+}
+
+/* franja roja arriba */
+.bien {
+    border-top: 8px solid #2E7D32;
+}
+
+/* franja verde arriba */
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.lector {
+    background: #1F1F1F;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: monospace;
+    min-height: 40px;
+    margin-top: 12px;
+}
